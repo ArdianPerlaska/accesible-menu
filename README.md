@@ -36,7 +36,7 @@ Make sure you add aria-expanded="false" to each list element.
 Include the src/accesible-menu.css or just make sure to have the CSS below in your stylesheet:
 
 ```css
-.nav > li[aria-expanded="true"] > .sub-menu {
+.nav > li[aria-expanded="true"] > ul {
     display: block;
 }
 ```
