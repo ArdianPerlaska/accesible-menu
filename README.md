@@ -29,7 +29,7 @@ Create a simple HTML layout
 </nav>
 ```
 
-Make sure you add aria-expanded="false" to each <li> element.
+Make sure you add aria-expanded="false" to each list element.
 
 # CSS
 
@@ -48,14 +48,12 @@ Please make sure to include latest jQuery
 ```html
 <script src="src/js/jquery.min.js"></script>
 ```
-
 and
-
 ```html
 <script src="src/js/accesible-menu.min.js"></script>
 ```
 
-After including everything, make sure to call the function to the desired DOM. It should be the <ul> parent element, in our case:
+After including everything, make sure to call the function to the desired DOM. It should be the unordered list parent element, in our case:
 
 ```javascript
 $(document).ready(function() {
