@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIM,2CAAY;EACV,OAAO,EAAE,KAAK",
+"sources": ["accesible-menu.scss"],
+"names": [],
+"file": "accesible-menu.css"
+}

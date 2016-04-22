@@ -1,0 +1,45 @@
+.sub-menu {
+  padding: 0;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+
+  > li {
+    list-style-type: none;
+    white-space: nowrap;
+
+    > a {
+      display: block;
+      background-color: #efefef;
+      padding: 5px 15px;
+      
+      &:focus {
+        background-color: darken(#efefef, 50%);
+        color: white;
+        text-decoration: none;
+      }
+      
+      &:hover {
+        background-color: darken(#efefef, 50%);
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+
+
+.nav {
+  > li {
+
+    > a {
+
+      &:focus {
+        background-color: darken(#efefef, 50%) !important;
+        color: white !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+
+*.xml
+
+*.iml
+
+.idea/vcs.xml
+
+.idea/.name

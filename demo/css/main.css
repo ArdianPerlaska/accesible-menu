@@ -1,0 +1,27 @@
+.sub-menu {
+  padding: 0;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none; }
+  .sub-menu > li {
+    list-style-type: none;
+    white-space: nowrap; }
+    .sub-menu > li > a {
+      display: block;
+      background-color: #efefef;
+      padding: 5px 15px; }
+      .sub-menu > li > a:focus {
+        background-color: #707070;
+        color: white;
+        text-decoration: none; }
+      .sub-menu > li > a:hover {
+        background-color: #707070;
+        color: white;
+        text-decoration: none; }
+
+.nav > li > a:focus {
+  background-color: #707070 !important;
+  color: white !important; }
+
+/*# sourceMappingURL=main.css.map */
