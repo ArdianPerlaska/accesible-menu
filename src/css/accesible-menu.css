@@ -1,4 +1,5 @@
 .nav > li[aria-expanded="true"] > .sub-menu {
-  display: block; }
+    display: block;
+}
 
 /*# sourceMappingURL=accesible-menu.css.map */
